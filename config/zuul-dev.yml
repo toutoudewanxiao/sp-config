@@ -29,7 +29,12 @@ management:
   endpoints:
     web:
       exposure:
-        include: hystrix.stream  
+        include: hystrix.stream
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh  
   
 hystrix:
   command:
